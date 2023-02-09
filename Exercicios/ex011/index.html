@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinamicas e audio</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Teste de imagens dinamicas</h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/hinata-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/hinata-m.png" type="image/png">
+        <img src="imagens/hinata-g.png" alt="Hinata Shoyo">
+    </picture>
+    <h1>Teste de audio</h1>
+    <audio preload="metadata" controls autoplay loop>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <p>Seu navegador não suporta o audio? Clique <a href="midia/guanacast-33.mp3" download="guanacast-33.mp3" type="audio/mpeg">aqui</a></p>
+    </audio>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        h1{
+            text-align: center;
+            font-size: 2,5em;
+        }
+
+        h1:hover{
+            color: darkmagenta
+        }
+
+        a{
+            color:green;
+            text-decoration: none;
+            font-weight: bold;        
+        }
+
+        a:visited{
+            color:darkred
+        }
+
+        a:hover{
+            color:darkcyan;
+            text-decoration: underline;
+        }
+
+        a:active{
+            color:pink
+        }
+
+        a::after{
+            content: ' link';
+            text-decoration: none;
+            color:blue;
+            font-weight: normal;
+        }
+
+        .master{
+            background-color: rgb(167, 96, 96);
+        }
+
+        h1::before{ 
+            content: ':D ';
+
+        }
+
+        h1::after{
+            content: ';p';
+            color:rgb(167, 96, 96);
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+<ul>
+    <li><a href="https://gustavoguanabara.github.io" target="_blank">Repositorio GitHub</a></li>
+    <li><a href="https://youtube.com/cursoemvideo/" target="_blank">Canal do Youtube</a></li>
+    <li><a href="https://www.cursoemvideo.com" terget="_blank" class="master">Site do CursoemVideo</a></li>
+</ul>
+</body>
+</html>

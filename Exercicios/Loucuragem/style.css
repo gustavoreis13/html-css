@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+        
+@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+
+body{
+   background-color:tomato;
+   color:rgb(248, 243, 236);
+    font-size: 15pt;
+    font-family:'Stick', sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: left;
+    font-size: 18pt;
+    font-family: 'Kaushan Script', cursive;
+}
