@@ -13,7 +13,7 @@
     padding: 0px;
 }
 
-body{
+body, html{
     background-color: white;
     min-height: 100vh; 
 }
@@ -22,10 +22,11 @@ header {
     background-color: black;
     text-align: center;
     padding-top: 50px;
+    color: white;
 }
 
 header > h1 {
-    color: white;
+    padding-top: 70px;
     font-family: var(--fonte-titulo);
     font-variant: small-caps;
     font-size: 10vw;
@@ -33,42 +34,47 @@ header > h1 {
 }
 
 header > p {
-    color: white;
     font-family: var(--fonte-padrao);
-    font-size: 1.5vw;
+    font-size: 1.5;
     font-weight: lighter;
     padding-bottom: 70px;
 }
 
-p a {
+a {
     color:white;
     text-decoration: none;
     font-weight: bold;
 }
 
-section.normal {
-    margin-top: 40px;
-    margin-left: 30px;
-    padding-top: 50px;
-    padding-bottom: 20px;
+a:hover {
+    text-decoration: underline;
 }
 
-section > p {
-    font-family: var(--fonte-corpo);
-    font-size: 3.5vw;
-    text-align: left;
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal{
+    background-color: white;
+    color: black;
 }
 
 section.imagem {
-    margin-top: 40px;
-    margin-left: 30px;
-    padding-top: 50px;
-}
-
-section.imagem > p {
+    background-color: rgb(34, 34, 34);
     color:white;
 }
 
-section.imagem > #texto {
-    background-color: rgba(0, 0, 0, 0.034);
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.432);
+    width: 400px;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color:white;
+    padding: 10px;
 }
