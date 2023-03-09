@@ -11,11 +11,23 @@ table {
 
 td, th {
     border: 1.5px solid black;
+    padding: 6px;
+}
+
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: lightgray;
 }
 
 thead, tfoot {
     background-color: gray;
     color: white;
+}
+
+tbody > tr:nth-child(2n) {
+    background-color: lightgray;
 }
 
 td.num {
