@@ -1,0 +1,16 @@
+@charset "UTF-8";   
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+table{
+
+    border: 1px solid black;
+    width: 300px;
+    text-align: center;
+}
+
+td {
+    border: 1px solid black;
+}
