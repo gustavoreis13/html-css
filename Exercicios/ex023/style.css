@@ -7,6 +7,7 @@ body{
 table {
     width: 500px;
     border-collapse: collapse;
+    position: relative;
 }
 
 td, th {
@@ -19,6 +20,12 @@ caption {
     font-weight: bold;
     padding: 10px;
     background-color: lightgray;
+}
+
+thead > tr > th {
+    position: sticky; 
+    top: -1px;
+    background-color:gray;
 }
 
 thead, tfoot {
